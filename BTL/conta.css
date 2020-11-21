@@ -1,0 +1,164 @@
+.sns_breadcrumb{
+    width: 100%;
+    height: 145px;
+    background-image: url(http://demo.snstheme.com/sns-nova/media/wysiwyg/sl-bg.jpg);
+    background-color: #3cabda;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+ .containers{
+     margin-left: auto;
+     margin-right: auto;
+ }
+ .row_fluid{
+     width: 80%;
+     height: 85px;
+     margin:auto;
+     padding-top: 30px;
+ }
+ .sns-titlepage {
+     color: #fff;
+     font-size: 24px;
+     font-family: arial, sans-serif;
+     font-weight: 100;
+     background: url(http://demo.snstheme.com/sns-nova/skin/frontend/default/sns_nova/images/ico-pagetitle.png) no-repeat left center;
+     margin-bottom: 25px;
+     padding-left: 45px;
+ }
+ .sns-pathway{
+     color:#fff;
+     font-size: 12px;
+     font-family: arial, sans-serif;
+     font-weight: inherit;
+ }
+ .sns-pathway .contacts{
+    padding: 0 15px 0 20px;
+    background: url(http://demo.snstheme.com/sns-nova/skin/frontend/default/sns_nova/images/arrow-bread.png) no-repeat left center;
+    color: #FFF;
+ }
+ .sns-pathway .home{
+     color: #FFF;
+     padding-right: 15px;
+ }
+ a{
+     text-decoration: none;
+ }
+ .sns-pathway i{
+     padding-right: 5px;
+ }
+ .contact-content{
+     width: 80%;
+     padding-top: 20px;
+     padding-bottom: 5px;
+     margin: auto;
+     text-align: center;
+     color: #666666;
+     line-height: 18px;
+     font-family: arial, sans-serif;
+    font-size: 12px;
+
+ }
+ .store_information p:before {
+    transition: all 0.2s ease-out;
+    content: "";
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    left: 0px;
+    top: 6px;
+    background-image: url(http://demo.snstheme.com/sns-nova/skin/frontend/default/sns_nova/images/ico-contactus.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    border: 1px solid #dfdfdf;
+    border-radius: 100%;
+}
+.map{
+    width: 80%;
+    height: 355px;
+    padding-left: 140px;
+     margin:auto;
+}
+/*                         thong tin */
+.information{
+    width: 80%;
+    height: 340px;
+    margin: auto;
+    padding-top: 35px;
+}
+.store_information{
+    width: 30%;
+    height: 340px;
+    float: left;
+    
+}
+.store_information p{
+    line-height: 24px;
+    margin: 0 0 3px 0;
+    padding: 0 0 0 46px;
+    position: relative;
+    color: #666666;
+    height: 48px;
+    
+}
+
+.customer_information{
+    width: 70%;
+    height: 340px;
+    float: left;
+}
+.input-box .name{
+     width: 50%;
+     height: 36px;
+     float: left;
+     padding-left: 5px;
+     border: 1px solid #e5e5e5;
+     border-radius: 5px;
+}
+.input-box .email{
+    width: 46%;
+    height: 36px;
+    float: left;
+    padding-left: 5px;
+    border-radius: 5px;
+    border: 1px solid #e5e5e5;
+}
+.input-box .phone{
+    width: 97.5%;
+    height: 36px;
+    margin-top: 10px;
+    padding-left: 5px;
+    border-radius: 5px;
+    border: 1px solid #e5e5e5;
+}
+.input-box .comment{
+    width: 97.5%;
+    height: 168px;
+    margin-top: 10px;
+    padding-left: 5px;
+    border-radius: 5px;
+    border: 1px solid #e5e5e5;
+}
+.buttons-set {
+    border: none !important;
+    padding: 10px 0 0 !important
+}
+.buttons-set .button{
+    border-radius: 18px;
+    border: 1px solid #e5e5e5;
+    background: #FFF;
+    font-size: 150%;
+    padding: 6px 20px;
+    cursor: pointer;
+    outline: none;
+}
+.button span{
+    font-family:  arial, sans-serif;
+    color: #666666;
+}
+.button:hover{
+    background-color: #3cabda;
+}
+.error{
+    color: #B94A48;
+    font-size: 92%;
+}
